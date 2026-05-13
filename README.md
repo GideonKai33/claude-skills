@@ -4,7 +4,11 @@ A small collection of reusable [Claude Code](https://docs.claude.com/en/docs/cla
 
 ## What's in here
 
-- **`vet`** — Evaluate AI workflows, tools, or business pitches you've seen on social media. Pulls the source (video link, blog, plain text), strips the hype, and gives an honest read on whether it fits your actual situation or would just add complexity. Biased toward protecting against shiny-object syndrome, but engages genuinely when something is a real fit.
+- **`vet`** — Evaluate AI workflows, tools, or business pitches you've seen on social media. Pulls the source (video link, blog, plain text), strips the hype, and gives an honest read on whether it fits your actual situation or would just add complexity. Biased toward protecting against shiny-object syndrome, but engages genuinely when something is a real fit. Reactive: "I saw this thing, should I do it?"
+
+- **`ai-audit`** — Help you figure out where AI would actually earn its place in your work. Interviews you about your normal week, surfaces the manual chains and recurring tasks worth automating, and outputs a short prioritized shortlist with one concrete first move you can take this week. Proactive counterpart to `/vet`: "Where could AI actually help me?"
+
+- **`spec-build`** — Turn a software, automation, or tool project into an agent-runnable build plan. Walks a five-question Discovery Brief dialogue, decomposes the work into atomic 5-15 minute phases with observable acceptance criteria, and saves `discovery-brief.md` and `phases.md` so Claude Code can run the build one phase at a time. For software/tool projects only — not for writing or relational work.
 
 More skills will land here over time.
 
